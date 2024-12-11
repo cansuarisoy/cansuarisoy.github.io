@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kültürel Miras</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Genel stiller */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f7fa;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(to bottom, #526199, #dadded); /* Mavi tonlarına geçişli */
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      color: white; 
+    }
+
+    .header p {
+      font-size: 20px;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px 0;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 0 10px;
+    }
+
+    .navbar a:hover {
+      background-color: #666;
+      border-radius: 5px;
+    }
+
+    /* Ana içerik */
+    .main-content {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .main-content h2 {
+      font-size: 30px;
+      color: #526199; /* Başlık için mavi renk */
+      margin-bottom: 20px;
+    }
+
+    .main-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    /* Kartlar bölümü */
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 20px 0 10px;
+      color: #526199; /* Kart başlıkları için mavi renk */
+    }
+
+    .card p {
+      padding: 0 20px 20px;
+      color: #555;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #444;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <div class="header">
+    <h1>Kültürel Miras</h1>
+    <p>İstanbul'un eşsiz tatları ve kültürel mirasını keşfedin!</p>
+  </div>
+
+  <!-- Navbar Section -->
+  <div class="navbar">
+    <a href="AnaSayfa2.htm">Anasayfa</a>
+    <a href="LezzetDurakları.htm">Lezzet Durakları</a>
+    <a href="KültürelMiras.htm">Kültürel Miras</a>
+    <a href="EğlenceMekanları.htm">Eğlence Mekanları</a>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <h2>İstanbul'da Keşfedeceğiniz Kültürel Miras</h2>
+    <p>İstanbul'un tarihi ve kültürel zenginliklerini keşfedin.</p>
+  </div>
+
+  <!-- Kültürel Miras Kartları Bölümü -->
+  <div class="cards">
+
+    <!-- Ayasofya Kartı -->
+    <div class="card">
+      <img src="https://lp-cms-production.imgix.net/2020-11/GettyRF_139196242.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=20&dpr=5" alt="Ayasofya">
+      <h3>Ayasofya</h3>
+      <p>Ayasofya, Bizans İmparatorluğu'nun en büyük kilisesiyken, Osmanlı döneminde camiye dönüştürülmüş ve dünyanın en önemli kültürel miraslarından biri olmuştur.</p>
+    </div>
+
+    <!-- Çırağan Sarayı Kartı -->
+    <div class="card">
+      <img src="https://www.kulturportali.gov.tr/repoKulturPortali/Dokumanlar/0253ISTANBULCIRAGANSARAYIROBERTM.KNIGHT11272013_20170419141241999.jpg?format=jpg&quality=50" alt="Çırağan Sarayı">
+      <h3>Çırağan Sarayı</h3>
+      <p>Osmanlı dönemi mimarisinin en görkemli örneklerinden biri olan Çırağan Sarayı, tarihi ve estetik bir deneyim sunmaktadır.</p>
+    </div>
+
+    <!-- Sultanahmet Camii Kartı -->
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/a2/e6/8d/a2e68d92b138aad94012ed69b2a093dc.jpg" alt="Sultanahmet Camii">
+      <h3>Sultanahmet Camii</h3>
+      <p>Bu tarihi cami, mimarisiyle ünlüdür ve İstanbul'un simgelerinden biri olarak ziyaretçilere göz alıcı bir deneyim sunar.</p>
+    </div>
+
+    <!-- Galata Kulesi Kartı -->
+    <div class="card">
+      <img src="https://media.tacdn.com/media/attractions-content--1x-1/0b/18/72/74.jpg" alt="Galata Kulesi">
+      <h3>Galata Kulesi</h3>
+      <p>İstanbul'un en eski yapılarından biri olan Galata Kulesi, şehri yüksekten görme fırsatı sunar ve İstanbul'un simgelerindendir.</p>
+    </div>
+
+    <!-- Kız Kulesi Kartı -->
+    <div class="card">
+      <img src="https://www.exclusivex.net/files/pictures/WhattodoinIstanbul/home_slider.webp" alt="Kız Kulesi">
+      <h3>Kız Kulesi</h3>
+      <p>İstanbul'un boğazına hakim olan bu tarihi kule, farklı efsanelere ev sahipliği yapmaktadır ve İstanbul'un en romantik yapılarından biridir.</p>
+    </div>
+
+    <!-- Topkapı Sarayı Kartı -->
+    <div class="card">
+      <img src="https://excursiongo.ru/wp-content/uploads/sites/2/2022/11/rrrtttttyy.jpg" alt="Topkapı Sarayı">
+      <h3>Topkapı Sarayı</h3>
+      <p>Osmanlı İmparatorluğu'nun yönetim merkezi olan Topkapı Sarayı, tarihi eserleri ve mimarisiyle dikkat çekiyor.</p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2024 Keşfet İstanbul. Tüm hakları saklıdır.</p>
+  </div>
+
+</body>
+</html>

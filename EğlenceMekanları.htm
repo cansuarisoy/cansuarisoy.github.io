@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Eğlence Mekanları</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Genel stiller */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f7fa;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(to bottom, #ffcdd2, #d32f2f);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 20px;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px 0;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 0 10px;
+    }
+
+    .navbar a:hover {
+      background-color: #666;
+      border-radius: 5px;
+    }
+
+    /* Ana içerik */
+    .main-content {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .main-content h2 {
+      font-size: 30px;
+      color: #d32f2f;
+      margin-bottom: 20px;
+    }
+
+    .main-content p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    /* Kartlar bölümü */
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 20px 0 10px;
+      color: #d32f2f;
+    }
+
+    .card p {
+      padding: 0 20px 20px;
+      color: #555;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #444;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Eğlence Mekanları</h1>
+    <p>Enerji dolu gece hayatı, müzik ve unutulmaz deneyimler.</p>
+  </div>
+
+  <div class="navbar">
+    <a href="Anasayfa2.htm">Anasayfa</a>
+    <a href="LezzetDuraklar%C4%B1.htm">Lezzet Durakları</a>
+    <a href="K%C3%BClt%C3%BCrelMiras.htm">Kültürel Miras</a>
+    <a href="E%C4%9flenceMekanlar%C4%B1.htm">Eğlence Mekanları</a>
+  </div>
+
+  <div class="main-content">
+    <h2>İstanbul'da Eğlence</h2>
+    <p>Şehrin enerjisini hissedin ve unutulmaz bir gece yaşayın.</p>
+  </div>
+
+  <div class="cards">
+    <!-- Adı Şahane Kartı -->
+    <div class="card">
+      <img src="https://d35mh9ae3ltweb.cloudfront.net/5c793845b863eb3a48fda32c/n9eKm3Mrp/web/gJ7QecpvO7JSW6uO11bOKEvma3E=/original" alt="Adı Şahane">
+      <h3>Adı Şahane</h3>
+      <p>Canlı müzik ve harika atmosferle unutulmaz bir deneyim.</p>
+    </div>
+
+    <!-- Sortie Kartı -->
+    <div class="card">
+      <img src="https://static.toiimg.com/photo/msid-44851423,width-96,height-65.cms" alt="Sortie">
+      <h3>Sortie</h3>
+      <p>Boğaz manzarası ve kaliteli müzikle dolu bir gece kulübü.</p>
+    </div>
+
+    <!-- Babylon Kartı -->
+    <div class="card">
+      <img src="https://blog.biletix.com/wp-content/uploads/2015/09/babylon_bomonti.jpg" alt="Babylon">
+      <h3>Babylon</h3>
+      <p>Şehrin popüler mekanlarından biri olan Babylon'da canlı performansların tadını çıkarın.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Keşfet İstanbul. Tüm hakları saklıdır.</p>
+  </div>
+
+</body>
+</html>
